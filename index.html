@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilo.css" rel="stylesheet" type="text/css">
+    <script src="bienvenido.js" type="text/javascript"></script>
+    <title>Mi Primer página personal</title>
+</head>
+<body background="Fondo.jpg">
+    
+    <h1>Lucas Alonzo</h1>
+    <table>
+        <thead>
+            <tr>
+                <th><ul><li><A href="#Study">Estudios</A></li></ul></th>
+                <th><ul><li><a href="#hobbies">Pasa tiempos</a></li></ul></th>
+                <th><ul><li><A href="#skills">Habilidades y Competencias</A></li></ul></th>
+                <th><ul><li><A href="#experience">Experencias Laborales</A></li></ul></th>
+                <th><ul><li><A href="#objectives">Objetivos Personales</A></li></ul></th>
+                <th><ul><li><A href="#contact">Contacto</A></li></ul></th>
+            </tr>
+        </thead>
+    </table> 
+    <br>
+    <h2>Presentación</h2>
+   
+        <p>
+           <img src="Perfil.jpeg" alt="Perfil" class="foto">
+            Mi nombre, como puede visualizarse en el título, es Lucas. Tengo 20 años, soy estudiante de Ingeniería en Sistemas(actualmente en el segundo año). 
+            Soy fanático de las matemáticas y descubrí que el mundo de la tecnología es que más me gusta y a lo que me quiero dedicar, en este breve resúmen 
+            vengo a contarles algunas de mis experiencias, mis estudios y mis competencias.
+        </p>
+        <br> 
+    <h2 id="Study">Mis estudios</h2>
+        <p>
+            Terminé el liceo en año 2019, egresando de 6to de Ingeniería. En el año 2020 comencé la facultad(año en el cual por la pandemia 
+            no pude adaptarme bien al cambio y opté por no estudiar. En 2021 recomencé la FING y actualmente me encuentro en el segundo año de la carrera.
+            Este año(2022) comencé un curso de desarrollo web, el cual quizás conozcan, JaP el cual finaliza el 25 de noviembre de este mismo año.
+        </p>
+        <br>
+    <h2 id="hobbies">Pasatiempos</h2>
+        <p>
+            Tengo muchos hobbies así que voy a mencionarles algunos:
+            <ul>
+                <li>Me gusta mucho jugar al fútbol, es de mis deportes favorito</li>
+                <li>Soy una persona que disfruto mucho de entrenar, por lo cual hago gimnasio cuando tengo tiempo y también salgo a correr, es más,
+                    este año corrí mi primer media-maratón.
+                </li>
+                <li>Me gusta jugar al Play también</li>
+                <li>Como a todo buen programador, me gusta mucho programar y a su vez disfruto mucho de las matemáticas</li>
+                <li>Me gusta el mate y los desayunos</li>
+            </ul> 
+        </p>
+        <br>
+    <h2 id="skills">Habilidades y Competencias</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Habilidades</th>
+                <th></th>
+                <th></th>
+                <th>Competencias</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Soy muy bueno en matemáticas</th>
+                <th></th>
+                <th></th>
+                <th>Buen trabajo en equipo</th>
+            </tr>
+            <tr>
+                <th>Manejo de Genexus</th>
+                <th></th>
+                <th></th>
+                <th>Proactivo y siempre dispuesto a ayudar</th>
+            </tr>
+            <tr>
+                <th>Pascal(FING)</th>
+                <th></th>
+                <th></th>
+                <th>Puntual, organizado y con buena planificación</th>
+            </tr>
+            <tr>
+                <th>Javascript básico y Ruby</th>
+                <th></th>
+                <th></th>
+                <th>Responsable</th>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <h2 id="experience">Experiencias Laborales</h2>
+        <p>
+            Actualmente tengo una única experiencia laboral la cual comencé en abril de este año(2022). Ingresé como asistente de desarrollador Genexus en
+            una empresa del sector automovilístico que reside cerca de mi casa. La empresa se llama BADER.
+            Actualmente hacemos aplicaciones Smart Device y web, a su vez nos encargamos de el testing de las mismas.
+        </p>
+        <br>
+    <h2 id="objectives">Objetivos Personales</h2>
+        <p>
+            Para este año me he planteado una lista de objetivos que depende de como vaya transcurriendo el año:
+            <ul>
+                <li>Exonerar al menos 5 materias de la facultad</li>
+                <li>Aprobar el curso de JaP</li>
+                <li>Obtener el título de Analista Genexus Junir</li>
+                <li>Obtener el título de First</li>
+                <li>Conseguir la renovación de mi contrato laboral</li>
+            </ul>
+        </p>
+    <br>
+    <h2 id="contact">Contacto</h2>
+        <form>
+            <label for="name">Nombre:</label>
+            <input id="name" type="text" placeholder="Introduce tu nombre" name="nombre"required>
+            <br>
+            <br>
+            <label for="surname">Apellido:</label>
+            <input id="surname" type="text" placeholder="Introduce tu apellido" name="apellido" required>
+            <br>
+            <br>
+            <label>Sexo:</label>
+            <input id="fem" type="radio" name="sex"><label for="fem">Mujer</label>
+            <input id="man" type="radio" name="sex"><label for="man">Hombre</label>
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="Introduce tu email">   <input type="submit" value="Enviar">
+        </form>  
+</body>
+</html>
